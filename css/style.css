@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+    color: #3b0764;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+
+.cv-card {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(112, 26, 117, 0.12);
+    border: 1px solid #f3e8ff;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #e9d5ff;
+    margin-bottom: 30px;
+}
+
+.logo-unud {
+    width: 90px;
+    height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.05));
+}
+
+.header-info h1 {
+    font-size: 24px;
+    color: #581c87;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #7e22ce;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.contact-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 13px;
+    color: #6b21a8;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 18px;
+    color: #6b21a8;
+    background: #faf5ff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-left: 4px solid #a855f7;
+}
+
+.section p {
+    font-size: 14px;
+    color: #4c1d95;
+}
+
+.timeline-item, .project-card {
+    background-color: #fcf8ff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    border: 1px solid #f3e8ff;
+    transition: transform 0.2s ease;
+}
+
+.timeline-item:hover, .project-card:hover {
+    transform: translateY(-2px);
+    border-color: #d8b4fe;
+}
+
+.timeline-item h3, .project-card h3 {
+    font-size: 16px;
+    color: #4c1d95;
+}
+
+.date-badge {
+    display: inline-block;
+    font-size: 12px;
+    background: #e9d5ff;
+    color: #581c87;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin: 4px 0 8px 0;
+}
+
+.date-text {
+    display: inline-block;
+    font-size: 12px;
+    color: #9333ea;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #4c1d95;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: #f3e8ff;
+    color: #6b21a8;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #d8b4fe;
+}
+
+/* --- Hobi --- */
+.hobby-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.hobby-item {
+    background: #faf5ff;
+    color: #581c87;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 1px dashed #d8b4fe;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-social {
+    text-decoration: none;
+    background: #9333ea;
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-social:hover {
+    background: #7e22ce;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #f3e8ff;
+    font-size: 12px;
+    color: #a855f7;
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-inline {
+        justify-content: center;
+    }
+
+    .cv-card {
+        padding: 25px 18px;
+    }
+}
