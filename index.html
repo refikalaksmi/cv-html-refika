@@ -178,7 +178,7 @@
             </section>
 
             <!-- Keahlian -->
-            <section class="section">
+            <section class="section" id="keahlian">
                 <h2>💡 Keahlian</h2>
                 <div class="skills-container">
                     <span class="skill-tag">Web Design</span>
@@ -188,7 +188,7 @@
             </section>
 
             <!-- Proyek -->
-            <section class="section">
+            <section class="section" id="project">
                 <h2>🚀 Proyek & Pengalaman</h2>
                 <div class="project-card">
                     <h3>Project IOT Smart Trash Bin</h3>
@@ -206,25 +206,58 @@
             </section>
 
             <!-- Hobi -->
-            <section class="section">
+            <section class="section" id="hobi">
                 <h2>🎨 Hobi & Minat</h2>
                 <div class="hobby-container">
                     <span class="hobby-item">📚 Membaca & Belajar Hal Baru</span>
                     <span class="hobby-item">☕ Explore Cafe Aesthetic</span>
                     <span class="hobby-item">🎧 Mendengarkan Musik</span>
                     <span class="hobby-item">🎬 Nonton Drakor / Drachin</span>
+                    <span class="hobby-item">💃 Menari</span>
                 </div>
             </section>
 
             <!-- Kontak & Sosial Media -->
-            <section class="section">
-                <h2>📬 Kontak & Sosial Media</h2>
-                <div class="social-links">
-                    <a href="mailto:refikalaksmi@gmail.com" class="btn-social">📧 Email</a>
-                    <a href="https://github.com/refikalaksmi" target="_blank" class="btn-social">🐙 GitHub</a>
-                    <a href="https://instagram.com/refika.laksmi" target="_blank" class="btn-social">📸 Instagram</a>
-                </div>
-            </section>
+            <section class="section" id="kontak">
+    <h2>📬 Kontak & Sosial Media</h2>
+
+    <div class="social-links">
+        <a href="mailto:refikalaksmi@gmail.com" class="btn-social">📧 Email</a>
+        <a href="https://github.com/refikalaksmi" target="_blank" class="btn-social">🐙 GitHub</a>
+        <a href="https://instagram.com/refika.laksmi" target="_blank" class="btn-social">📸 Instagram</a>
+    </div>
+
+    <h3 class="form-title">Kirim Pesan</h3>
+
+    <form class="contact-form">
+
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+
+        <label for="email">Alamat Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+
+        <label for="hobi-form">Hobi</label>
+        <select id="hobi-form" name="hobi">
+            <option value="">-- Pilih Hobi --</option>
+            <option value="membaca">Membaca</option>
+            <option value="musik">Mendengarkan Musik</option>
+            <option value="menari">Menari</option>
+            <option value="nonton">Nonton Drakor / Drachin</option>
+            <option value="explore-cafe">Explore Cafe</option>
+        </select>
+
+        <label for="telepon">No. Telepon</label>
+        <input type="tel" id="telepon" name="telepon" placeholder="Masukkan nomor telepon">
+
+        <button type="submit">Kirim</button>
+
+    </form>
+</section>
+        
         </main>
 
         <footer>
