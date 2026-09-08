@@ -268,3 +268,58 @@ tr:nth-child(even) {
 tr:hover {
     background: #f3e8ff;
 }
+/* --- Form Kontak --- */
+.form-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #581c87;
+    font-size: 17px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #fcf8ff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #f3e8ff;
+}
+
+.contact-form label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #581c87;
+    margin-top: 5px;
+}
+
+.contact-form input,
+.contact-form select {
+    padding: 10px 12px;
+    border: 1px solid #d8b4fe;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+    border-color: #9333ea;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #9333ea;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #7e22ce;
+}
