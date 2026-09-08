@@ -211,3 +211,60 @@ footer {
         padding: 25px 18px;
     }
 }
+/* --- Navigasi --- */
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 12px;
+    background: #faf5ff;
+    border-radius: 12px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #6b21a8;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 8px;
+}
+
+.navbar a:hover {
+    background: #e9d5ff;
+    color: #581c87;
+}
+
+/* --- Tabel Organisasi --- */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th {
+    background: #9333ea;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 11px;
+    border-bottom: 1px solid #e9d5ff;
+    color: #4c1d95;
+}
+
+tr:nth-child(even) {
+    background: #faf5ff;
+}
+
+tr:hover {
+    background: #f3e8ff;
+}
